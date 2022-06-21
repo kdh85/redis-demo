@@ -5,4 +5,4 @@ import org.springframework.data.repository.CrudRepository
 import org.springframework.stereotype.Repository
 
 @Repository
-interface MemberRepository : CrudRepository<Member, String>//, MemberCustomRepository
+interface MemberRepository : CrudRepository<Member, String>
